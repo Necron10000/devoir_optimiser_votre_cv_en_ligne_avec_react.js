@@ -1,0 +1,35 @@
+.mention-title{
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -0.5rem;
+        left: 50%;
+        width: 15rem; /* Longueur du trait */
+        height: 0.25rem; /* Épaisseur du trait */
+        background-color: #0d6efd; /* Couleur du trait */
+        transform: translateX(-50%);
+    }
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    margin-right: 0.2rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0d6efd !important;
+    font-weight: 600;
+}
+
+.accordion-body, .unstyle {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+

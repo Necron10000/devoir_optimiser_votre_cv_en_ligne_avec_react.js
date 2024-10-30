@@ -1,0 +1,40 @@
+.portfolio-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0.5em;
+    position: relative;
+    
+}
+
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.subtitle::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 21%; /* Longueur du trait */
+    height: 4px; /* Épaisseur du trait */
+    background-color: #0d6efd; /* Couleur du trait */
+}
+
+.articles{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.cardTitle{
+    font-size: 2em !important;
+    font-weight: 600 !important;
+}
+
+.cardText, .cardFooter{
+    text-align: center;
+}
+

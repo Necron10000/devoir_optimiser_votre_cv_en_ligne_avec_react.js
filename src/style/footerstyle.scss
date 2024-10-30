@@ -1,0 +1,56 @@
+$textColor: white;
+
+footer{
+  background-color: #EEE;
+}
+
+.container{
+z-index: 2; /* Met le container au-dessus du flou */
+}
+
+.bg-black {
+    background-color: #000000;
+  }
+  
+
+  .text-white {
+    color: white;
+  }
+  
+  .p{
+    margin-bottom: 0rem !important;
+  }
+
+  .customBullets {
+    position: relative; 
+    left:-1.5rem;
+    list-style-type: none; // Supprime les puces par défaut
+    
+  
+    li {
+
+      a {
+        text-decoration: none; // Supprime la sous-ligne par défaut des liens
+        color: inherit; // Met la couleur du texte par défaut 
+        padding-left: 0.2em;
+  
+        &:hover {
+          text-decoration: underline; // Ajoute la sous-ligne lors du survol des liens
+        }
+      }
+    }
+  }
+
+.arrowIcon{
+  color:#0d6efd;
+}
+
+.copyright{
+  position: relative;
+  top: 3rem;
+}
+
+.customIcon{
+  color:#444;
+}
+
