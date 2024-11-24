@@ -47,7 +47,7 @@ const Footer = () => {
               Téléphone: 06 20 30 40 50</p>
             
                   {/* Icônes des réseaux professionnels */}
-                  <a className='customIcon mr-1' href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
+                  <a className='customIcon mr-1' href="/GitHubProfile" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} style={{ fontSize: '24px' }}/>
                   </a>
                   <a className='customIcon mx-4' href="https://twitter.com/johndoe" target="_blank" rel="noopener noreferrer">
@@ -63,7 +63,7 @@ const Footer = () => {
             <h5><strong>Liens utiles</strong></h5>
             <ul className= 'customBullets'>
               <li>{arrowIcon}<a href="/">Accueil</a></li>
-              <li>{arrowIcon}<a href="/about">À propos</a></li>
+              <li>{arrowIcon}<a href="/#apropos">À propos</a></li>
               <li>{arrowIcon}<a href="/service">Services</a></li>
               <li>{arrowIcon}<a href="/contact">Me Contacter</a></li>
               <li>{arrowIcon}<a href="/mentions">Mentions légales</a></li>

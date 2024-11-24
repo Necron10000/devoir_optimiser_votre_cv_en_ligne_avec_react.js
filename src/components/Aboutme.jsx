@@ -1,12 +1,23 @@
-import React from 'react';
+import { React, useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import officeWork from '../assets/img/john-doe-about.jpg';
 import  "../style/Aboutme.scss";
 
 
 const Aboutme = () => {
-    return (
 
-        <div className="container mt-4">
+    const aboutRef = useRef(null);
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash === "#apropos" && aboutRef.current) {
+            aboutRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+    }, [location]);
+
+
+    return (
+        <div className="container mt-4" id="apropos" ref={aboutRef}>
             <div className="card border shadow-lg d-inline-block w-auto mx-auto">
                 <div className="card-body p-4 m-4">
                     <div className="row">

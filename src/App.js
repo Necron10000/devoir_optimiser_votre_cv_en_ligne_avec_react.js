@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Realisations from './pages/Realisations';
 import Service from './pages/Service';
 import Mentions from './pages/Mentions';
+import GitHubProfile from './components/GitHubProfile';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/realisations" element={<Realisations />} />
       <Route path="/service" element={<Service />} />
       <Route path="/Mentions" element={<Mentions/>} />
+      <Route path="/GitHubProfile" element={<GitHubProfile/>} />
     </Routes>
     </Router>
   );

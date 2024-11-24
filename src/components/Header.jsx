@@ -6,7 +6,7 @@ import { Navbar, Nav } from "react-bootstrap"
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home" className="ms-5">JOHN DOE</Navbar.Brand>
+      <Navbar.Brand href="/" className="ms-5">JOHN DOE</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
         <Nav className="mr-auto">
